@@ -6,7 +6,9 @@
 * 重命名.bat=>双击.bat/刷入.bat=>刷入 
 * 刷入前请自行删除旧版本boot.img及rootfs.img(tool.7z下为system.img)
 * firmware 见 [openstick](https://github.com/OpenStick/OpenStick/releases)
-* 1202更新 短信转发pushdeer脚本 op下测试可用
+# 1202更新 
+* 短信转发pushdeer脚本msg.py op下测试可用 根据https://www.cnblogs.com/uwiu/p/16556855.html 修改修复 使用一致
+* 依赖在及python源码前面注释 查看脚本修改自己pushkey或自建服务器
 # 问题 
 mac80211驱动有问题，要编译老网卡需要换，自己添加wcn36xx驱动进去 
 还望大佬们指导编译方案 也不清楚是否可行
