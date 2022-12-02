@@ -1,5 +1,5 @@
 #!/bin/ash
-target="USB 10" #eth0/USB10/LAN 
+target="" #eth0/USB10/LAN 
 echo host > /sys/kernel/debug/usb/ci_hdrc.0/role
 sleep 5
 result=$(dmesg lsusb | grep "${target}")
