@@ -8,10 +8,10 @@
 * firmware 见 [openstick](https://github.com/OpenStick/OpenStick/releases)
 # 1202更新 
 * 短信转发pushdeer脚本msg.py op下测试可用 根据https://www.cnblogs.com/uwiu/p/16556855.html 修改修复 使用一致
-* 依赖在及python源码前面注释
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py 
-python get-pip.py
-pip install pypushdeer 
+* 依赖在及python源码前面注释/n
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py /n
+python get-pip.py /n
+pip install pypushdeer /n
 *查看脚本修改自己pushkey或自建服务器
 
 # 问题 
