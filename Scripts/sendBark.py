@@ -1,10 +1,10 @@
 import os
 import urllib2
-def getIPv6Address():
+def command():
     result= os.popen("命令").read()
     return result
 
-url_code = urllib2.quote(getIPv6Address())
+url_code = urllib2.quote(command())
 
 url="bark服务器网址+设备码"+url_code+"?level=passive" #例如 http://server/yourkey/ 替换
 req=urllib2.Request(url)
