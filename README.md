@@ -15,6 +15,7 @@
 4. 查看脚本修改自己pushkey或自建服务器
 * autoawitch.sh 先切换host模式 5秒后查找是否有 网卡USB 10 或 eth0 或 LAN等 自行修改target 若没grep到 切回gadget模式
 * bark推送 自行修改
+* pushdeer推送 自行修改
 # 问题 
 mac80211驱动有问题，要编译老网卡需要换，自己添加wcn36xx驱动进去 
 还望大佬们指导编译方案 也不清楚是否可行
